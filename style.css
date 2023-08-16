@@ -50,3 +50,12 @@ body {
     width: 30px;
     padding-left: 23rem;
   }
+
+  @media only screen and (min-width:600px){
+    .card{
+      margin: 0 18px;
+    }
+    .quote p{
+      font-size: 15px;
+    }
+}
