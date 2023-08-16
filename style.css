@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(./BLACK_IV_desktop.jpg) no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    background-color: rgb(228, 223, 223);
+    box-shadow: 7px 6px 9px gray;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;;
+  }
+
+  .btn {
+    background-color: #6f8ba9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #bcccdd;
+  }
+
+  .light img{
+    width: 30px;
+    padding-left: 23rem;
+  }
